@@ -1,0 +1,39 @@
+PS E:\Case_Study_Solution_Abhay_Mudgal> python main.py config/app_config.json
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+25/01/21 10:57:26 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Output:  182
+2. Output:  784
+3. Output:  ['CHEVROLET', 'FORD', 'DODGE', 'FREIGHTLINER', 'NISSAN']
+4. Output:  6359
+5. Output:  Texas
+6. Output:  ['TOYOTA', 'DODGE', 'NISSAN']
+7. Output: 
+
++--------------------+-----------------+
+|    VEH_BODY_STYL_ID|PRSN_ETHNICITY_ID|
++--------------------+-----------------+
+|           AMBULANCE|            WHITE|
+|                 BUS|         HISPANIC|
+|      FARM EQUIPMENT|            WHITE|
+|          FIRE TRUCK|            WHITE|
+|          MOTORCYCLE|            WHITE|
+|NEV-NEIGHBORHOOD ...|            WHITE|
+|PASSENGER CAR, 2-...|            WHITE|
+|PASSENGER CAR, 4-...|            WHITE|
+|              PICKUP|            WHITE|
+|    POLICE CAR/TRUCK|            WHITE|
+|   POLICE MOTORCYCLE|         HISPANIC|
+|SPORT UTILITY VEH...|            WHITE|
+|               TRUCK|            WHITE|
+|       TRUCK TRACTOR|            WHITE|
+|                 VAN|            WHITE|
+|   YELLOW SCHOOL BUS|            WHITE|
++--------------------+-----------------+
+
+8. Output:  ['76010', '78521', '75067', '78574', '75052']
+9. Output:  6
+10. Output:  ['FORD', 'CHEVROLET', 'TOYOTA', 'DODGE', 'NISSAN']
+PS E:\Case_Study_Solution_Abhay_Mudgal> SUCCESS: The process with PID 9392 (child process of PID 16848) has been terminated.
+SUCCESS: The process with PID 16848 (child process of PID 12176) has been terminated.
+SUCCESS: The process with PID 12176 (child process of PID 18476) has been terminated.
