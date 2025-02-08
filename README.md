@@ -16,7 +16,7 @@ The application should allow dynamic scaling as new datasets are added, maintain
 
 # Execution
 1. Go to the Project Directory
-2. On terminal, run : python main.py config/app_config.json
+2. On terminal, run : spark-submit --conf spark.pyspark.python="*YOUR python exe path*" --master local[*] main.py config/app_config.json
 
 # Output:
 Output File : Output.txt
